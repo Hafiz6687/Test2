@@ -621,7 +621,7 @@ body{
 
 }
 /* =====================================================
-   SECTION 18A BREAKDOWN
+   SECTION 18A BREAKDOWN FIX
 ===================================================== */
 
 
@@ -638,42 +638,48 @@ body{
 }
 
 
+
 .section18a-header,
 .section18a-row{
 
     display:grid;
 
-    grid-template-columns:1.3fr 1fr 1fr;
+    grid-template-columns:minmax(90px,1.3fr) repeat(2,minmax(70px,1fr));
 
     width:100%;
+
+    box-sizing:border-box;
 
     border-bottom:1px solid #ddd;
 
 }
 
 
+
 .section18a-header{
 
     background:#1f4e79;
 
-    color:#fff;
+    color:white;
 
     font-weight:700;
 
 }
 
 
+
 .section18a-row{
 
-    background:#fff;
+    background:white;
 
 }
+
 
 
 .section18a-header span,
 .section18a-row span{
 
-    padding:10px 5px;
+    padding:10px 4px;
 
     text-align:center;
 
@@ -681,18 +687,13 @@ body{
 
     min-width:0;
 
+    width:auto;
+
     overflow:hidden;
 
     text-overflow:ellipsis;
 
     white-space:nowrap;
-
-}
-
-
-.section18a-row:last-child{
-
-    border-bottom:none;
 
 }
 

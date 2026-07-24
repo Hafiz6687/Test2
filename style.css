@@ -624,6 +624,7 @@ body{
    SECTION 18A BREAKDOWN
 ===================================================== */
 
+
 .section18a-breakdown{
 
     width:100%;
@@ -646,9 +647,25 @@ body{
 
     width:100%;
 
-    max-width:100%;
-
     border-bottom:1px solid #ddd;
+
+}
+
+
+.section18a-header{
+
+    background:#1f4e79;
+
+    color:#fff;
+
+    font-weight:700;
+
+}
+
+
+.section18a-row{
+
+    background:#fff;
 
 }
 
@@ -656,7 +673,7 @@ body{
 .section18a-header span,
 .section18a-row span{
 
-    padding:10px 6px;
+    padding:10px 5px;
 
     text-align:center;
 
@@ -669,6 +686,13 @@ body{
     text-overflow:ellipsis;
 
     white-space:nowrap;
+
+}
+
+
+.section18a-row:last-child{
+
+    border-bottom:none;
 
 }
 

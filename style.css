@@ -632,9 +632,7 @@ body{
 
     border-radius:8px;
 
-    overflow-x:auto;
-
-    overflow-y:hidden;
+    overflow:hidden;
 
 }
 
@@ -648,25 +646,9 @@ body{
 
     width:100%;
 
+    max-width:100%;
+
     border-bottom:1px solid #ddd;
-
-}
-
-
-.section18a-header{
-
-    background:#1f4e79;
-
-    color:#fff;
-
-    font-weight:700;
-
-}
-
-
-.section18a-row{
-
-    background:#fff;
 
 }
 
@@ -674,18 +656,19 @@ body{
 .section18a-header span,
 .section18a-row span{
 
-    padding:10px;
+    padding:10px 6px;
 
     text-align:center;
 
     font-size:14px;
 
-}
+    min-width:0;
 
+    overflow:hidden;
 
-.section18a-row:last-child{
+    text-overflow:ellipsis;
 
-    border-bottom:none;
+    white-space:nowrap;
 
 }
 

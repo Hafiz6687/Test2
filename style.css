@@ -624,6 +624,7 @@ body{
    SECTION 18A BREAKDOWN
 ===================================================== */
 
+
 .section18a-breakdown{
 
     width:100%;
@@ -632,7 +633,20 @@ body{
 
     border-radius:8px;
 
-    overflow:visible;
+    overflow-x:auto;
+
+    overflow-y:hidden;
+
+}
+
+
+.section18a-breakdown table{
+
+    width:100%;
+
+    table-layout:fixed;
+
+    border-collapse:collapse;
 
 }
 .section18a-header,

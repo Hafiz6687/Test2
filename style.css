@@ -483,6 +483,10 @@ body{
 
     line-height:1.25;
 
+    text-align:left;
+
+    justify-self:start;
+
 }
 
 .result-row span,

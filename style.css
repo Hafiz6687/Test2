@@ -559,13 +559,23 @@ body{
 
 }
 
+
 .ggn-day-card .result-title{
 
     margin-bottom:8px;
 
+    text-align:left;
+
 }
 
+
 .ggn-day-card .result-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
 
     gap:10px;
 
@@ -573,15 +583,21 @@ body{
 
 }
 
+
 .ggn-day-card .result-label{
 
     line-height:1.2;
 
+    text-align:left;
+
 }
+
 
 .ggn-day-card .result-value{
 
     min-width:105px;
+
+    text-align:right;
 
 }
 

@@ -79,6 +79,7 @@ body{
    CALCULATOR CARD
 ===================================================== */
 
+
 .calculator-card{
 
     background:#fff;
@@ -95,6 +96,8 @@ body{
         box-shadow .2s ease;
 
     height:auto;
+
+    min-width:0;
 
 }
 
@@ -621,125 +624,84 @@ body{
 
 }
 /* =====================================================
-   SEKsyen 18A BREAKDOWN
+   SECTION 18A BREAKDOWN
 ===================================================== */
-
 
 .section18a-breakdown{
 
-
     width:100%;
-
 
     margin-top:15px;
 
-
     border-radius:8px;
-
 
     overflow:hidden;
 
+    box-sizing:border-box;
 
 }
-
-
-
-
 
 
 
 .section18a-header,
 .section18a-row{
 
-
     display:grid;
 
+    grid-template-columns:1.3fr 1fr 1fr;
 
-    grid-template-columns:
-    1.3fr
-    1fr
-    1fr;
+    width:100%;
 
+    box-sizing:border-box;
 
-    border-bottom:
-    1px solid #ddd;
-
+    border-bottom:1px solid #ddd;
 
 }
-
-
-
 
 
 
 .section18a-header{
 
-
     background:#1f4e79;
-
 
     color:white;
 
-
     font-weight:bold;
 
-
 }
-
-
-
 
 
 
 .section18a-row{
 
-
     background:white;
 
-
 }
-
-
-
 
 
 
 .section18a-header span,
 .section18a-row span{
 
+    min-width:0;
 
-    padding:10px;
+    width:100%;
 
+    padding:10px 5px;
 
     text-align:center;
 
-
     font-size:14px;
 
+    box-sizing:border-box;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
 
 }
-
-
-
-
-
-
-.section18a-row:first-child{
-
-
-    font-weight:bold;
-
-
-}
-
-
-
-
-
-
-
-
-
 /* =====================================================
    WARNING BOX
 ===================================================== */

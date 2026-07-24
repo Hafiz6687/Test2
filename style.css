@@ -624,7 +624,6 @@ body{
    SECTION 18A BREAKDOWN
 ===================================================== */
 
-
 .section18a-breakdown{
 
     width:100%;
@@ -640,15 +639,6 @@ body{
 }
 
 
-.section18a-breakdown table{
-
-    width:100%;
-
-    table-layout:fixed;
-
-    border-collapse:collapse;
-
-}
 .section18a-header,
 .section18a-row{
 
@@ -656,9 +646,12 @@ body{
 
     grid-template-columns:1.3fr 1fr 1fr;
 
+    width:100%;
+
     border-bottom:1px solid #ddd;
 
 }
+
 
 .section18a-header{
 
@@ -670,11 +663,13 @@ body{
 
 }
 
+
 .section18a-row{
 
     background:#fff;
 
 }
+
 
 .section18a-header span,
 .section18a-row span{
@@ -687,12 +682,12 @@ body{
 
 }
 
+
 .section18a-row:last-child{
 
     border-bottom:none;
 
 }
-
 
 /* =====================================================
    WARNING BOX

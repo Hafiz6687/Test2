@@ -702,6 +702,35 @@ body{
     white-space:nowrap;
 
 }
+
+/* =====================================================
+   SECTION 18A WIDTH CONTROL
+===================================================== */
+
+
+.section18a-breakdown,
+.section18a-header,
+.section18a-row{
+
+    max-width:100%;
+
+}
+
+
+.section18a-header span,
+.section18a-row span{
+
+    min-width:0;
+
+    max-width:100%;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
+
+}
 /* =====================================================
    WARNING BOX
 ===================================================== */
@@ -884,7 +913,7 @@ input[readonly]{
 
 .calculator-card{
 
-    overflow:hidden;
+    overflow:visible;
 
 }
 
@@ -1245,7 +1274,7 @@ input[type=number]{
 
     width:auto;
 
-    min-width:120px;
+    min-width:0;
 
     text-align:right;
 
